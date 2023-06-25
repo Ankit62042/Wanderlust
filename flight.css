@@ -1,0 +1,769 @@
+.search-results-flights-child {
+    position: absolute;
+    top: 300px;
+    left: 0;
+    background: linear-gradient(
+      0deg,
+      rgba(212, 209, 206, 0.5) 86.56%,
+      rgba(212, 209, 206, 0)
+    );
+    width: 1280px;
+    height: 740px;
+  }
+  .search-results-flights-item {
+    position: absolute;
+    top: 140px;
+    left: calc(50% - 580px);
+    border-radius: var(--br-11xl);
+    background-color: var(--color-whitesmoke-200);
+    box-shadow: 0 3px 20px #d4d1ce;
+    width: 1160px;
+    height: 100px;
+  }
+  .departure-date,
+  .from {
+    position: absolute;
+    top: 160px;
+    left: 100px;
+  }
+  .departure-date {
+    left: 521px;
+  }
+  .party-size,
+  .returning-date,
+  .to {
+    position: absolute;
+    top: 160px;
+    left: 722px;
+  }
+  .party-size,
+  .to {
+    left: 940px;
+  }
+  .to {
+    left: 300px;
+  }
+  .local-guides {
+    position: relative;
+    font-size: var(--font-size-sm);
+    font-family: var(--font-rubik);
+    color: var(--color-gray-200);
+    text-align: left;
+  }
+  .local-guides-wrapper {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-4xs) var(--padding-5xl);
+    background-color: var(--color-lightgray);
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-xl);
+    height: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+  }
+  .flights {
+    position: relative;
+    font-size: var(--font-size-sm);
+    font-family: var(--font-rubik);
+    color: var(--color-gray-100);
+    text-align: left;
+  }
+  .flights-wrapper,
+  .hotels-wrapper {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-4xs) var(--padding-5xl);
+    position: absolute;
+    top: 0;
+    border-radius: var(--br-xl);
+    height: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+  }
+  .flights-wrapper {
+    background-color: var(--color-whitesmoke-100);
+    left: 156px;
+    box-shadow: 0 2px 8px rgba(42, 41, 39, 0.3);
+  }
+  .hotels-wrapper {
+    background-color: var(--color-lightgray);
+    left: 274px;
+  }
+  .search-result-tabs {
+    position: absolute;
+    top: 260px;
+    left: 70px;
+    width: 400px;
+    height: 30px;
+  }
+  .one-way {
+    text-decoration: none;
+    position: absolute;
+    top: 320px;
+    left: 200px;
+    font-size: var(--font-size-lg);
+    color: var(--color-gray-300);
+  }
+  .flight-search-filter-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-xl);
+    background-color: var(--color-whitesmoke-100);
+    box-shadow: 0 4px 15px rgba(42, 41, 39, 0.3);
+    width: 260px;
+    height: 420px;
+  }
+  .flight-times,
+  .stops {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: var(--font-size-lg);
+    font-weight: 600;
+  }
+  .flight-times {
+    top: 180px;
+  }
+  .div,
+  .nonstop {
+    position: absolute;
+    top: 63px;
+    left: 50px;
+    font-weight: 300;
+  }
+  .div {
+    left: 197px;
+    color: var(--color-gray-300);
+    text-align: right;
+  }
+  .stop {
+    top: 93px;
+    left: 50px;
+  }
+  .div1,
+  .stop,
+  .stops1 {
+    position: absolute;
+    font-weight: 300;
+  }
+  .div1 {
+    top: 93px;
+    left: 204px;
+    color: var(--color-gray-300);
+    text-align: right;
+  }
+  .stops1 {
+    top: 123px;
+    left: 50px;
+  }
+  .seattle-paris {
+    font-size: var(--font-size-xs);
+    font-weight: 300;
+  }
+  .departure-flight-seattle-container,
+  .returning-flight-paris-container {
+    position: absolute;
+    top: 220px;
+    left: 20px;
+    font-size: var(--font-size-sm);
+  }
+  .returning-flight-paris-container {
+    top: 300px;
+  }
+  .div2 {
+    position: absolute;
+    top: 123px;
+    left: 204px;
+    font-weight: 300;
+    color: var(--color-gray-300);
+    text-align: right;
+  }
+  .check-box-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-10xs);
+    background-color: var(--color-whitesmoke-100);
+    width: 20px;
+    height: 20px;
+  }
+  .checkmark-icon {
+    position: absolute;
+    top: calc(50% - 5px);
+    left: calc(50% - 7px);
+    width: 13.56px;
+    height: 10px;
+  }
+  .check-box,
+  .check-box1 {
+    left: 20px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+  }
+  .check-box {
+    position: absolute;
+    top: 60px;
+    width: 20px;
+    height: 20px;
+  }
+  .check-box1 {
+    top: 90px;
+  }
+  .check-box-inner,
+  .check-box1,
+  .check-box2 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+  }
+  .check-box-inner {
+    top: 0;
+    left: 0;
+    border-radius: var(--br-10xs);
+    background-color: var(--color-lightgray);
+  }
+  .check-box2 {
+    top: 120px;
+    left: 20px;
+  }
+  .flight-search-filter-item {
+    position: absolute;
+    top: 159.75px;
+    left: 19.75px;
+    border-top: 0.5px solid var(--color-lightgray);
+    box-sizing: border-box;
+    width: 220.5px;
+    height: 0.5px;
+  }
+  .sample-text {
+    position: relative;
+    font-weight: 300;
+  }
+  .text-box {
+    border-radius: var(--br-xl);
+    background-color: var(--color-whitesmoke-100);
+    border: 1px solid var(--color-lightgray);
+    box-sizing: border-box;
+    width: 80px;
+    height: 25px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-9xs) var(--padding-6xs);
+    align-items: center;
+    justify-content: center;
+  }
+  .div3 {
+    position: relative;
+    font-size: var(--font-size-sm);
+    color: var(--color-gray-100);
+  }
+  .component-1,
+  .component-11 {
+    position: absolute;
+    top: 247px;
+    left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-7xs);
+    color: var(--color-gray-400);
+  }
+  .component-11 {
+    top: 327px;
+  }
+  .flight-search-filter {
+    position: absolute;
+    top: 380px;
+    left: 60px;
+    width: 260px;
+    height: 420px;
+    font-size: var(--font-size-xs);
+  }
+  .round-trip {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: 500;
+  }
+  .group-child {
+    position: absolute;
+    top: 24.75px;
+    left: -0.75px;
+    width: 95.5px;
+    height: 1.5px;
+  }
+  .round-trip-parent {
+    position: absolute;
+    top: 320px;
+    left: 80px;
+    width: 94px;
+    height: 25.5px;
+    font-size: var(--font-size-lg);
+  }
+  .frame-child {
+    position: relative;
+    width: 25px;
+    height: 20px;
+  }
+  .search-results-flights-inner {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-xl) var(--padding-xs);
+    background-color: var(--color-goldenrod);
+    position: absolute;
+    top: 180px;
+    left: 1100px;
+    border-radius: var(--br-16xl);
+    width: 80px;
+    height: 40px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+  }
+  .flight-deal-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-6xl);
+    background-color: var(--color-whitesmoke-100);
+    box-shadow: 0 4px 15px rgba(42, 41, 39, 0.3);
+    width: 860px;
+    height: 200px;
+  }
+  .air-canada {
+    position: absolute;
+    top: 26px;
+    left: 0;
+    font-weight: 300;
+  }
+  .air-canada-group,
+  .air-canada-parent {
+    position: absolute;
+    top: 35px;
+    left: 110px;
+    width: 129px;
+    height: 40px;
+  }
+  .air-canada-group {
+    top: 125px;
+    width: 117px;
+  }
+  .hr-45-min {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: var(--font-size-sm);
+  }
+  .cdg-sea-parent,
+  .sea-cdg-parent {
+    position: absolute;
+    top: 35px;
+    left: 320px;
+    width: 80px;
+    height: 40px;
+  }
+  .cdg-sea-parent {
+    top: 125px;
+    width: 77px;
+  }
+  .hr-30-min-yul-parent,
+  .hr-35-min-yul-parent {
+    position: absolute;
+    top: 35px;
+    left: 480px;
+    width: 90px;
+    height: 40px;
+  }
+  .hr-35-min-yul-parent {
+    top: 125px;
+  }
+  .div5 {
+    position: absolute;
+    top: 39px;
+    left: 774px;
+    font-size: var(--font-size-lg);
+    font-weight: 500;
+  }
+  .round-trip-per {
+    position: absolute;
+    top: 66px;
+    left: 698px;
+    font-weight: 300;
+    text-align: right;
+  }
+  .view-flights {
+    position: relative;
+    font-size: var(--font-size-lg);
+    font-weight: 500;
+    font-family: var(--font-rubik);
+    color: var(--color-gray-100);
+    text-align: left;
+  }
+  .select-deal-button {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-xl) var(--padding-xs);
+    background-color: var(--color-goldenrod);
+    position: absolute;
+    top: 125px;
+    left: 660px;
+    border-radius: var(--br-16xl);
+    width: 160px;
+    height: 40px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+  }
+  .air-canada-logo-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-5xs);
+    background-color: var(--color-whitesmoke-100);
+    width: 60px;
+    height: 60px;
+  }
+  .air-canada-logo-item {
+    position: absolute;
+    top: calc(50% - 28px);
+    left: calc(50% - 28px);
+    border-radius: var(--br-5xs);
+    width: 56px;
+    height: 56px;
+    object-fit: cover;
+  }
+  .air-canada-logo,
+  .air-canada-logo1 {
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    box-shadow: 0 2px 10px rgba(42, 41, 39, 0.3);
+    width: 60px;
+    height: 60px;
+  }
+  .air-canada-logo1 {
+    top: 115px;
+  }
+  .flight-deal {
+    position: absolute;
+    top: 380px;
+    left: 360px;
+    width: 860px;
+    height: 200px;
+    font-size: var(--font-size-xs);
+  }
+  .flight-deal-inner,
+  .rectangle-div {
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    border-radius: var(--br-5xs);
+    background-color: var(--color-gainsboro);
+    width: 60px;
+    height: 60px;
+  }
+  .rectangle-div {
+    top: 115px;
+  }
+  .flight-deal1 {
+    position: absolute;
+    top: 600px;
+    left: 360px;
+    width: 860px;
+    height: 200px;
+    font-size: var(--font-size-xs);
+  }
+  .view-flights2 {
+    position: relative;
+    font-weight: 500;
+  }
+  .view-flights-container {
+    position: absolute;
+    top: 125px;
+    left: 660px;
+    border-radius: var(--br-16xl);
+    background-color: var(--color-goldenrod);
+    width: 160px;
+    height: 40px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-xl) var(--padding-xs);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--font-size-lg);
+  }
+  .flight-deal2 {
+    position: absolute;
+    top: 820px;
+    left: 360px;
+    width: 860px;
+    height: 200px;
+    font-size: var(--font-size-xs);
+  }
+  .long-text,
+  .long-text1 {
+    background-color: var(--color-whitesmoke-100);
+    position: absolute;
+  }
+  .long-text {
+    border: 0;
+    font-weight: 500;
+    font-family: var(--font-rubik);
+    font-size: var(--font-size-lg);
+    top: 180px;
+    left: 100px;
+    border-radius: var(--br-11xl);
+    box-shadow: 0 3px 10px rgba(42, 41, 39, 0.3);
+    width: 180px;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-3xs) var(--padding-211xl) var(--padding-3xs)
+      var(--padding-11xl);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .long-text1 {
+    left: 300px;
+  }
+  .long-text1,
+  .long-text2,
+  .long-text3 {
+    border: 0;
+    font-weight: 500;
+    font-family: var(--font-rubik);
+    font-size: var(--font-size-lg);
+    top: 180px;
+    border-radius: var(--br-11xl);
+    box-shadow: 0 3px 10px rgba(42, 41, 39, 0.3);
+    width: 180px;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-3xs) var(--padding-211xl) var(--padding-3xs)
+      var(--padding-11xl);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .long-text2 {
+    background-color: var(--color-whitesmoke-100);
+    position: absolute;
+    left: 520px;
+  }
+  .long-text3 {
+    left: 720px;
+  }
+  .header-child,
+  .long-text3,
+  .long-text4 {
+    position: absolute;
+    background-color: var(--color-whitesmoke-100);
+  }
+  .long-text4 {
+    border: 0;
+    font-weight: 500;
+    font-family: var(--font-rubik);
+    font-size: var(--font-size-lg);
+    top: 180px;
+    left: 940px;
+    border-radius: var(--br-11xl);
+    box-shadow: 0 3px 10px rgba(42, 41, 39, 0.3);
+    width: 120px;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-3xs) var(--padding-2xl);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+  }
+  .header-child {
+    top: 0;
+    left: 0;
+    width: 1280px;
+    height: 120px;
+  }
+  .frame-item {
+    position: relative;
+    border-radius: 50%;
+    border: 1.5px solid var(--color-lightgray);
+    box-sizing: border-box;
+    width: 61.5px;
+    height: 61.5px;
+    z-index: 0;
+  }
+  .js {
+    position: absolute;
+    margin: 0 !important;
+    top: 20px;
+    left: 18px;
+    font-weight: 500;
+    z-index: 1;
+  }
+  .ellipse-parent {
+    position: absolute;
+    top: 40px;
+    left: 1160px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-3xs);
+  }
+  .instance-child {
+    position: absolute;
+    height: 100%;
+    width: 33.52%;
+    top: 0;
+    right: 66.48%;
+    bottom: 0;
+    left: 0;
+    border-radius: 50%;
+    background-color: var(--color-goldenrod);
+  }
+  .ellipse-group,
+  .wanderlust {
+    position: absolute;
+    top: 23.33%;
+    left: 11.17%;
+  }
+  .ellipse-group {
+    top: 40px;
+    left: 60px;
+    width: 179px;
+    height: 60px;
+    cursor: pointer;
+    font-size: var(--font-size-9xl);
+  }
+  .explore {
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: 600;
+    color: inherit;
+  }
+  .group-item {
+    position: absolute;
+    top: 18.5px;
+    left: -0.5px;
+    border-top: 1px solid var(--color-gray-100);
+    box-sizing: border-box;
+    width: 54px;
+    height: 1px;
+  }
+  .explore-parent {
+    position: relative;
+    width: 53px;
+    height: 19px;
+  }
+  .connect,
+  .my-travel {
+    text-decoration: none;
+    position: relative;
+    color: inherit;
+  }
+  .my-travel {
+    cursor: pointer;
+  }
+  .top-nav {
+    position: absolute;
+    top: 61px;
+    left: calc(50% - 155px);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 70px;
+    font-size: var(--font-size-sm);
+  }
+  .group-inner,
+  .header {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .header {
+    width: 1280px;
+    height: 120px;
+    font-size: var(--font-size-lg);
+  }
+  .group-inner {
+    border-radius: var(--br-xl) var(--br-xl) 0 0;
+    background-color: var(--color-whitesmoke-100);
+    box-shadow: 0-4px 20px rgba(42, 41, 39, 0.3);
+    width: 280px;
+    height: 52px;
+  }
+  .vector-icon {
+    position: relative;
+    width: 17px;
+    height: 10px;
+  }
+  .expand-button {
+    width: 25px;
+    height: 21px;
+    display: flex;
+    flex-direction: column;
+    padding: var(--padding-3xs);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+  }
+  .messages-parent {
+    position: absolute;
+    top: 15.5px;
+    left: 52px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-46xl);
+  }
+  .messages,
+  .rectangle-parent {
+    position: absolute;
+    top: 363px;
+    left: 0;
+    width: 280px;
+    height: 52px;
+  }
+  .messages {
+    top: 416px;
+    left: 960px;
+    height: 415px;
+    opacity: 0.8;
+    font-size: var(--font-size-lg);
+  }
+  .search-results-flights {
+    position: relative;
+    background-color: var(--color-whitesmoke-100);
+    width: 100%;
+    height: 832px;
+    overflow-y: auto;
+    text-align: left;
+    font-size: var(--font-size-sm);
+    color: var(--color-gray-100);
+    font-family: var(--font-rubik);
+  }
+  

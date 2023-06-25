@@ -1,0 +1,291 @@
+.landing-page-background1 {
+    position: absolute;
+    top: 160px;
+    left: 40px;
+    border-radius: var(--br-16xl);
+    width: 1200px;
+    height: 640px;
+    object-fit: cover;
+  }
+  .landing-page-logged-in-child {
+    position: absolute;
+    top: 540px;
+    left: 60px;
+    border-radius: var(--br-21xl);
+    background-color: var(--color-whitesmoke-200);
+    width: 1160px;
+    height: 140px;
+  }
+  .departure-date2,
+  .from2,
+  .party-size2,
+  .returning-date2,
+  .to2 {
+    position: absolute;
+    top: 580px;
+    left: 100px;
+    font-size: var(--font-size-sm);
+  }
+  .departure-date2,
+  .party-size2,
+  .returning-date2,
+  .to2 {
+    left: 521px;
+  }
+  .party-size2,
+  .returning-date2,
+  .to2 {
+    left: 722px;
+  }
+  .party-size2,
+  .to2 {
+    left: 940px;
+  }
+  .to2 {
+    left: 300px;
+  }
+  .the-wanderlust-is1 {
+    margin-block-start: 0;
+    margin-block-end: 10px;
+  }
+  .let-your-next1 {
+    margin: 0;
+  }
+  .the-wanderlust-is-container1 {
+    position: absolute;
+    top: 316px;
+    left: 80px;
+    font-size: var(--font-size-21xl);
+    color: var(--color-gray-100);
+  }
+  .frame-icon {
+    position: relative;
+    width: 25px;
+    height: 20px;
+  }
+  .landing-page-logged-in-inner {
+    position: absolute;
+    top: 600px;
+    left: 1100px;
+    border-radius: var(--br-16xl);
+    background-color: var(--color-goldenrod);
+    width: 80px;
+    height: 40px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-xl) var(--padding-xs);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .textbox1 {
+    position: relative;
+  }
+  .long-text12,
+  .long-text13 {
+    position: absolute;
+    background-color: var(--color-whitesmoke-100);
+  }
+  .long-text12 {
+    top: 599.5px;
+    left: 99.5px;
+    border-radius: var(--br-11xl);
+    border: 1px solid var(--color-lightgray);
+    box-sizing: border-box;
+    width: 181px;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-3xs) var(--padding-211xl) var(--padding-3xs)
+      var(--padding-11xl);
+    align-items: center;
+    justify-content: flex-start;
+    color: var(--color-gray-300);
+  }
+  .long-text13 {
+    left: 299.5px;
+  }
+  .long-text13,
+  .long-text14,
+  .long-text15 {
+    top: 599.5px;
+    border-radius: var(--br-11xl);
+    border: 1px solid var(--color-lightgray);
+    box-sizing: border-box;
+    width: 181px;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-3xs) var(--padding-211xl) var(--padding-3xs)
+      var(--padding-11xl);
+    align-items: center;
+    justify-content: flex-start;
+    color: var(--color-gray-300);
+  }
+  .long-text14 {
+    position: absolute;
+    left: 519.5px;
+    background-color: var(--color-whitesmoke-100);
+  }
+  .long-text15 {
+    left: 719.5px;
+  }
+  .long-text15,
+  .long-text16,
+  .messages-item {
+    position: absolute;
+    background-color: var(--color-whitesmoke-100);
+  }
+  .long-text16 {
+    top: 599.5px;
+    left: 939.5px;
+    border-radius: var(--br-11xl);
+    border: 1px solid var(--color-lightgray);
+    box-sizing: border-box;
+    width: 121px;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-3xs) var(--padding-2xl);
+    align-items: center;
+    justify-content: center;
+    color: var(--color-gray-300);
+  }
+  .messages-item {
+    top: 363px;
+    left: 0;
+    border-radius: var(--br-xl) var(--br-xl) 0 0;
+    box-shadow: 0-4px 20px rgba(42, 41, 39, 0.3);
+    width: 280px;
+    height: 52px;
+  }
+  .messages3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-weight: 500;
+  }
+  .vector-icon1 {
+    position: relative;
+    width: 17px;
+    height: 10px;
+  }
+  .expand-button1 {
+    position: absolute;
+    bottom: 0;
+    left: 151px;
+    width: 25px;
+    height: 21px;
+    display: flex;
+    flex-direction: column;
+    padding: var(--padding-3xs);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+  }
+  .messages-group {
+    position: absolute;
+    bottom: 15.5px;
+    left: 52px;
+    width: 176px;
+    height: 21px;
+    cursor: pointer;
+  }
+  .header-inner,
+  .messages2 {
+    position: absolute;
+    top: 416px;
+    left: 960px;
+    width: 280px;
+    height: 415px;
+  }
+  .header-inner {
+    top: 0;
+    left: 0;
+    background-color: var(--color-whitesmoke-100);
+    width: 1280px;
+    height: 120px;
+  }
+  .frame-child1 {
+    position: relative;
+    border-radius: 50%;
+    border: 1.5px solid var(--color-lightgray);
+    box-sizing: border-box;
+    width: 61.5px;
+    height: 61.5px;
+    z-index: 0;
+  }
+  .js1 {
+    position: absolute;
+    margin: 0 !important;
+    top: 20px;
+    left: 18px;
+    font-weight: 500;
+    z-index: 1;
+  }
+  .ellipse-parent1,
+  .top-nav2 {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+  }
+  .ellipse-parent1 {
+    top: 40px;
+    left: 1160px;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-3xs);
+    color: var(--color-black);
+  }
+  .top-nav2 {
+    top: 61px;
+    left: 447px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-31xl);
+    font-size: var(--font-size-sm);
+  }
+  .instance-child1 {
+    position: absolute;
+    height: 100%;
+    width: 33.52%;
+    top: 0;
+    right: 66.48%;
+    bottom: 0;
+    left: 0;
+    border-radius: 50%;
+    background-color: var(--color-goldenrod);
+  }
+  .ellipse-parent2,
+  .wanderlust3 {
+    position: absolute;
+    top: 23.33%;
+    left: 11.17%;
+  }
+  .ellipse-parent2 {
+    top: 40px;
+    left: 60px;
+    width: 179px;
+    height: 60px;
+    cursor: pointer;
+    font-size: var(--font-size-9xl);
+  }
+  .header3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1280px;
+    height: 120px;
+    color: var(--color-gray-100);
+  }
+  .landing-page-logged-in {
+    position: relative;
+    background-color: var(--color-whitesmoke-100);
+    width: 100%;
+    height: 832px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-lg);
+    color: var(--color-black);
+    font-family: var(--font-rubik);
+  }
+  
